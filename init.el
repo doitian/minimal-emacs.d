@@ -152,5 +152,7 @@ re-downloaded in order to locate PACKAGE."
 (global-auto-revert-mode +1)
 
 (ido-complete-space-or-hyphen-enable)
+(require 'ido-hacks)
+(ido-hacks-mode +1)
 
 (projectile-global-mode)
